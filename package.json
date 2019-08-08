@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "jQuery": "^1.7.4",
+    "jsdom": "^15.1.1",
+    "location": "0.0.1",
+    "navigator": "^1.0.1",
+    "vue": "^2.6.10",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.10.0",
