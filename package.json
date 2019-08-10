@@ -1,6 +1,6 @@
 {
   "name": "vue-auto-complete-textarea",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "jQuery": "^1.7.4",
+    "jquery": "^3.5.2",
     "jsdom": "^15.1.1",
     "location": "0.0.1",
     "navigator": "^1.0.1",
