@@ -1,10 +1,10 @@
 {
-  "name": "auto-complete-textarea",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-auto-complete-textarea",
+  "version": "0.1.4",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name vue-autocomplete-textarea",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -47,5 +47,25 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "Flexible and simple use vue-auto-complete-textarea",
+  "main": "./dist/vue-autocomplete-textarea.common.js",
+  "files": [  "dist/*",  "src/*",  "public/*",  "*.json",  "*.js"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alijahanpak/vue-auto-complete-textarea.git"
+  },
+  "keywords": [
+    "VueJS",
+    "vue",
+    "autocomplete",
+    "textarea",
+    "autosuggest"
+  ],
+  "author": "morteza amzajerdi - ali jahanpak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alijahanpak/vue-auto-complete-textarea/issues"
+  },
+  "homepage": "https://github.com/alijahanpak/vue-auto-complete-textarea#readme"
 }

@@ -1,28 +1,46 @@
-# auto-complete-textarea
+# vue-auto-complete-textarea
 
-## Project setup
+## Install
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+$ npm install --save vue-auto-complete-textarea
 ```
 
-### Compiles and minifies for production
+Register the component : 
 ```
-npm run build
+import vueAutoCompleteTextArea from "vue-auto-complete-textarea";
 ```
+### How to use : 
+```
+<label>Lable
+    <vueAutoCompleteTextArea
+            style="height: 150px"
+            :name="'description'"
+            :options = "[{'id':'', 'text' : ''}]"
+            v-model="input.description">
+    </vueAutoCompleteTextArea>
+</label>
+```
+### props:
 
-### Run your tests
-```
-npm run test
-```
+| Name          | Type            | Description  
+| ------------- |---------------  |------------:
+| option        | Array of object | option list
+| name          | String          | textarea name attribute
 
-### Lints and fixes files
+### v-validate:
+
 ```
-npm run lint
+<label>Lable
+    <vueAutoCompleteTextArea
+            style="height: 150px"
+            :name="'description'"
+            v-validate="'required'"
+            :class="{'input': true, 'error-border': errors.has('description')}"
+            :options = "[{'id':'', 'text' : ''}]"
+            v-model="input.description">
+    </vueAutoCompleteTextArea>
+    <span v-show="errors.has('description')" class="error-font">Error Text!</span>
+</label>
 ```
 
 ### Customize configuration
