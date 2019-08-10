@@ -10,7 +10,7 @@ Register the component :
 import vueAutoCompleteTextArea from "vue-auto-complete-textarea";
 ```
 ### How to use : 
-```
+```vue
 <label>Lable
     <vueAutoCompleteTextArea
             style="height: 150px"
@@ -29,7 +29,7 @@ import vueAutoCompleteTextArea from "vue-auto-complete-textarea";
 
 ### v-validate:
 
-```
+```vue
 <label>Lable
     <vueAutoCompleteTextArea
             style="height: 150px"
