@@ -1,6 +1,6 @@
 {
   "name": "vue-auto-complete-textarea",
-  "version": "0.1.6",
+  "version": "0.1.61",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

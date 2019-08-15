@@ -1,0 +1,45 @@
+.form-element-margin-btm {
+    margin-bottom: 0px;
+}
+.margin-top-grid{
+    margin-top: 8px;
+}
+.textArea-suggestion{
+    position: absolute;
+    z-index: 9999;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px #1E90FF;
+    transition: all .15s ease;
+    -webkit-transform: translateY(-2px);
+    max-height: 150px;
+    min-height: 38px;
+    overflow-y: auto;
+}
+
+.textArea-suggestion ul li{
+    padding: 8px;
+    font-weight: normal;
+    border-bottom: 1px solid #FAFAFA;
+    color : #777777;
+}
+
+.textArea-suggestion ul li:hover{
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.scrollContent{
+
+}
+.selectedWithArrow{
+    background-color: #F5F5F5;
+}
+
+textarea:focus {
+    background-color: #fefefe;
+    border: 1px solid #8a8a8a;
+    box-shadow: 0 0 5px #1E90FF;
+    outline: medium none;
+    transition: box-shadow 0.5s ease 0s, border-color 0.25s ease-in-out 0s;
+
+}

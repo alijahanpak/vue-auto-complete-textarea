@@ -6,11 +6,13 @@ $ npm install --save vue-auto-complete-textarea
 ```
 
 Register the component : 
-```
+```html
 import vueAutoCompleteTextArea from "vue-auto-complete-textarea";
+import 'vue-auto-complete-textarea/dist/vue-auto-complete-textarea.css';
+
 ```
 ### How to use : 
-```vue
+```html
 <label>Lable
     <vueAutoCompleteTextArea
             style="height: 150px"
@@ -29,7 +31,7 @@ import vueAutoCompleteTextArea from "vue-auto-complete-textarea";
 
 ### v-validate:
 
-```vue
+```html
 <label>Lable
     <vueAutoCompleteTextArea
             style="height: 150px"

@@ -14,6 +14,9 @@
 </template>
 
 <script>
+    import jQuery from 'jquery';
+    let $ = jQuery;
+    require('./assets/css/style.css');
     export default{
         name : 'app',
         props:['options' , 'value' , 'name'],
